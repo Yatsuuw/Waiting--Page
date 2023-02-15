@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: #333;
+    font-family: Raleway, sans-serif;
+    pointer-events: none;
+    width: 100%;
+    margin: 0;
+}
+
+header nav {
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    pointer-events: all;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+header nav a:hover {
+    color: #919191;
+    border-bottom: 1px solid #919191;
+    transition: 0.5s;
+}
+
+header .waiting {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .waiting h1 {
+    color: red;
+    text-decoration: overline;
+}
+
+header .waiting h2 {
+    color: pink;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+header .waiting .photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    width: 60%;
+    height: 60%;
+}
+
+.middle-contact {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.middle-contact h2 {
+    color: royalblue;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.middle-contact h2 .p2, .p3, .p4 {
+    color: brown;
+    pointer-events: all;
+}
+
+.discord-text {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: lightcoral;
+}
+
+.discord-text span {
+    text-decoration: underline;
+    color: pink;
+    pointer-events: all;
+}
+
+footer .copyright .cp {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    header .waiting h1 {
+        font-size: 20px;
+    }
+
+    header .waiting p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    header .waiting .photo {
+        width: 350px;
+        height: 215px;
+    }
+
+    .discord-text {
+        font-size: 16px;
+        margin-top: 46px;
+    }
+}
