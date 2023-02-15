@@ -6,7 +6,7 @@ textContainer.classList.add("discord-text");
 
 discordLink.addEventListener("click", () => {
     if (textContainer.innerHTML === "") {
-        textContainer.innerHTML = "<p>Rejoignez moi sur Discord : <span class='discord-username'>Yatsuu#5094</span><br><a>Cliquez sur l'ID pour copier.</a></p>";
+        textContainer.innerHTML = "<p>Rejoignez moi sur Discord : <span class='discord-username'>YourDiscordAccount#0000</span><br><a>Cliquez sur l'ID pour copier.</a></p>";
         middleContact.after(textContainer);
         const discordUsername = document.querySelector(".discord-username");
         discordUsername.addEventListener("click", () => {
